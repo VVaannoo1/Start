@@ -1,0 +1,19 @@
+{
+"timestamp": "2023-22-02 10:10:10",
+"isOpen": false,
+"stocks": [
+    {
+        "ticker": "AAPL",
+        "open": 112.89,
+        "close": 115.22
+    }, {
+        "ticker": "GDX",
+        "open": 39,
+        "close": 40
+    }, {
+        "ticker": "TSLA",
+        "open": null,
+        "close": 409
+    }
+]
+}
