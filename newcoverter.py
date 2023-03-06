@@ -1,5 +1,8 @@
+#!/usr/bin/python3
+
 import json
 import yaml
+from pprint import pprint
 
 with open('inputjson.json') as f:
     data = json.load(f)
@@ -21,7 +24,12 @@ for item in data:
     else:
         raise ValueError(f"Unknown operation '{op}'")
     
-    results.append(result)
+    results.append({
+        'a': a,
+        'b': b,
+        'operation': op,
+        'result': result
+    })
 
 with open('data.yaml', 'w') as f:
     yaml.dump(results, f)
