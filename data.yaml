@@ -1,4 +1,16 @@
-- 30
-- 0.5
-- 200
-- 1260
+- a: 10
+  b: 20
+  operation: +
+  result: 30
+- a: 10
+  b: 20
+  operation: /
+  result: 0.5
+- a: 10
+  b: 20
+  operation: '*'
+  result: 200
+- a: 1488
+  b: 228
+  operation: '-'
+  result: 1260
