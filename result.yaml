@@ -1,0 +1,20 @@
+data:
+  a: 10
+  b: 20
+  operation: +
+result: 30
+data:
+  a: 10
+  b: 20
+  operation: /
+result: 0.5
+data:
+  a: 10
+  b: 20
+  operation: '*'
+result: 200
+data:
+  a: 1488
+  b: 228
+  operation: '-'
+result: 1260
