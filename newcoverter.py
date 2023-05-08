@@ -1,5 +1,8 @@
+#!/usr/bin/python3
+
 import json
 import yaml
+from pprint import pprint
 
 with open('inputjson.json') as f:
     data = json.load(f)
